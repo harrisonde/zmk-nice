@@ -20,7 +20,7 @@
 // ------------------------------------------------------------------------------------------
 // | ESC |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   "|"    |
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   BKSP  |
-// | CTL  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER    |
+// | CTL  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER     |
 // |  SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |      SHIFT       |
 // |  CTL  |  ALT  |  WIN  |            SPACE              |  WIN  |  ALT  |  MO(1) |  CTL  |
 // ------------------------------------------------------------------------------------------
@@ -34,13 +34,13 @@
 		};
 
 		rgb_layer {
-// ------------------------------------------------------------------------------------------------
-// | BT CLR | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10   | F11 | F12 | EFFECT REV |
-// |  BT 1   |   |  UP |   | HUEUP | SATUP | BRIUP | SPDUP |   |     | UP |     |     |           |
+// ----------------------------------------------------------------------------------------------------
+// | BT CLR | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10   | F11 | F12 | EFFECT REV    |
+// |  BT 1   |   |  UP |   | HUEUP | SATUP | BRIUP | SPDUP |   |     | UP |     |     |               |
 // |   BT 2   | LT |  DN  | RT | HUEDN | SATDN | BRIDN | SPDDN |   |   LT  | RT  |     |  EFFECT FORW |
-// |    BT 3     |     |      |      |     |     |     |     |     |     |     |                  |
-// |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
-// ------------------------------------------------------------------------------------------------
+// |    BT 3     |     |      |      |     |     |     |     |     |     |     |                      |
+// |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL      |
+// ----------------------------------------------------------------------------------------------------
 			bindings = <
 	&bt BT_CLR   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &rgb_ug RGB_EFR
 	&bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &kp UP   &trans  &trans          &trans 
