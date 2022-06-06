@@ -1,32 +1,32 @@
 {
     "devDependencies": {
-      "@semantic-release/changelog": "^6.0.1",
-      "@semantic-release/commit-analyzer": "^9.0.2",
-      "@semantic-release/git": "^10.0.1",
-      "@semantic-release/github": "^8.0.4",
-      "@semantic-release/npm": "^9.0.1",
-      "@semantic-release/release-notes-generator": "^10.0.3",
-      "semantic-release": "^19.0.2"
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^8.0.4",
+        "@semantic-release/npm": "^9.0.1",
+        "@semantic-release/release-notes-generator": "^10.0.3",
+        "semantic-release": "^19.0.2"
     },
     "name": "zmk-nice",
     "version": "0.0.0-development",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "semantic-release": "semantic-release"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "semantic-release": "semantic-release"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/harrisonde/zmk-nice.git"
+        "type": "git",
+        "url": "https://github.com/harrisonde/zmk-nice.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/harrisonde/zmk-nice/issues"
+        "url": "https://github.com/harrisonde/zmk-nice/issues"
     },
     "homepage": "https://github.com/harrisonde/zmk-nice#readme",
     "description": "",
     "publishConfig": {
-      "access": "restricted"
+        "access": "restricted"
     }
-  }
+}
