@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/harrisonde/zmk-nice/compare/v1.2.3...v1.2.4) (2022-06-07)
+
+
+### Bug Fixes
+
+* build path ([12f4105](https://github.com/harrisonde/zmk-nice/commit/12f4105855d5d8dab4084a2eee9cc9a116f31e0d))
+
 ## [1.2.3](https://github.com/harrisonde/zmk-nice/compare/v1.2.2...v1.2.3) (2022-06-07)
 
 
