@@ -9,6 +9,8 @@ jobs:
     needs: call-workflow-compiling-assets
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: download build artifacts
         uses: actions/download-artifact@v3
         with:
