@@ -13,11 +13,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: build/zephyr
-          if-no-files-found: warn
       - name: Display structure of downloaded files
         run: ls -R
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
       - name: Install dependencies
