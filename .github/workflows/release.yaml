@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: build
-        uses: ./.github/workflows/build.yaml
+        uses: ./.github/workflows/build
       - name: Setup Node
         uses: actions/setup-node@v2
       - name: Install dependencies
