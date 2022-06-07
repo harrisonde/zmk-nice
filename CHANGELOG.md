@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/harrisonde/zmk-nice/compare/v1.2.0...v1.2.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* merge ([7dd4c27](https://github.com/harrisonde/zmk-nice/commit/7dd4c27a07b51798fe2e4f451506fb6c2d547966))
+* work on actions ([b7ddbf2](https://github.com/harrisonde/zmk-nice/commit/b7ddbf2fe6c280ee1c7cfbada76cc4c671178cf1))
+
 # [1.2.0](https://github.com/harrisonde/zmk-nice/compare/v1.1.0...v1.2.0) (2022-06-07)
 
 
