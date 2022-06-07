@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
-        uses: ./.github/workflows/build.yml@main
+        uses: ./.github/workflows/build.yml
       - name: Setup Node
         uses: actions/setup-node@v2
       - name: Install dependencies
