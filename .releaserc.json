@@ -13,8 +13,9 @@
     ["@semantic-release/github",
     {
       "assets": [
-        {"path": "build/zephyr/zephyr-artifacts/zmk.hex", "label": "zmk.hex distribution"},
-        {"path": "build/zephyr/zephyr-artifacts/zmk.uf2", "label": "zmk.uf2 distribution"}
+        {"path": "./build", "label": "full distribution"},
+        {"path": "./build/zephyr/zephyr-artifacts/zmk.hex", "label": "zmk.hex distribution"},
+        {"path": "./build/zephyr/zephyr-artifacts/zmk.uf2", "label": "zmk.uf2 distribution"}
       ]
     }] 
   ]
