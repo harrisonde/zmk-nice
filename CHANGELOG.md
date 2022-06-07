@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/harrisonde/zmk-nice/compare/v1.0.1...v1.1.0) (2022-06-07)
+
+
+### Bug Fixes
+
+* semantic relase format ([63ea7ff](https://github.com/harrisonde/zmk-nice/commit/63ea7ff2542b6f04cde1b7062b1ae9ee01467f07))
+
+
+### Features
+
+* key map notes ([0cc7d01](https://github.com/harrisonde/zmk-nice/commit/0cc7d014cd48b0a2e048541a3c6d8ae576869c43))
+
 ## [1.0.1](https://github.com/harrisonde/zmk-nice/compare/v1.0.0...v1.0.1) (2022-06-06)
 
 
