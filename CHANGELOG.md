@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/harrisonde/zmk-nice/compare/v1.2.1...v1.2.2) (2022-06-07)
+
+
+### Bug Fixes
+
+* actions ([3920502](https://github.com/harrisonde/zmk-nice/commit/392050286c2001585899dff11e549db7cf5777de))
+
 ## [1.2.1](https://github.com/harrisonde/zmk-nice/compare/v1.2.0...v1.2.1) (2022-06-07)
 
 
