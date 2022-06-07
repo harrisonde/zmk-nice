@@ -1,3 +1,11 @@
+## [1.2.5](https://github.com/harrisonde/zmk-nice/compare/v1.2.4...v1.2.5) (2022-06-07)
+
+
+### Bug Fixes
+
+* checkout step ([1690bb9](https://github.com/harrisonde/zmk-nice/commit/1690bb962c11d04a2385e0ca244c0f9302c11c81))
+* remove extra checkout ([05efd7c](https://github.com/harrisonde/zmk-nice/commit/05efd7c014b0622bd6fea637041868da796b13f1))
+
 ## [1.2.4](https://github.com/harrisonde/zmk-nice/compare/v1.2.3...v1.2.4) (2022-06-07)
 
 
