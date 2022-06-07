@@ -3,11 +3,18 @@ on:
   push:
     branches: [ main ]
 jobs:
-  reusable_workflow_job:
+  call-workflow-compiling-assets:
      uses: ./.github/workflows/action.yaml
   release:
+    needs: call-workflow-compiling-assets
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: zephyr-artifacts
+          path: |
+              build/zephyr/zmk.hex
+              build/zephyr/zmk.uf2
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node

@@ -57,7 +57,7 @@ jobs:
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ steps.variables.outputs.artifact-name }}
+          name: zephyr-artifacts
           path: |
             build/zephyr/zmk.hex
             build/zephyr/zmk.uf2
