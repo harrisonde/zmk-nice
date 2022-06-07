@@ -12,8 +12,6 @@ jobs:
         include:
           - board: nice60
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Cache west modules
         uses: actions/cache@v2
         env:
