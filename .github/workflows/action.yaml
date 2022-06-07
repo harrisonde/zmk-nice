@@ -1,6 +1,8 @@
-name: build
+name: Build
 on:
-  workflow_call:
+  - push
+  - pull_request
+  - workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -12,6 +14,8 @@ jobs:
         include:
           - board: nice60
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Cache west modules
         uses: actions/cache@v2
         env:

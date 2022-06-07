@@ -3,13 +3,13 @@ on:
   push:
     branches: [ main ]
 jobs:
+  reusable_workflow_job:
+     uses: ./.github/workflows/action.yaml
   release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: build
-        uses: ./.github/workflows/action
       - name: Setup Node
         uses: actions/setup-node@v2
       - name: Install dependencies
